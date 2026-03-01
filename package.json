@@ -1,0 +1,15 @@
+{
+  "name": "spoontree",
+  "version": "0.1.0",
+  "description": "Autonomous evolutionary AI agents on-chain",
+  "main": "core/agent.js",
+  "scripts": {
+    "dev": "node core/agent.js",
+    "start": "node core/agent.js",
+    "test": "node test/agent.test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3"
+  }
+}
